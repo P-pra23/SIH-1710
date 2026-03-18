@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:18/03/2026
+## Register Number:212224100043
+## Name:prathikshaa
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,81 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+The core idea is to develop a Smart Railway Station Navigation System that helps passengers easily locate platforms, ticket counters, restrooms, food courts, waiting halls, exits, elevators, and other facilities inside railway stations. The system will provide real-time, interactive navigation using mobile applications, digital kiosks, and voice-based guidance, ensuring accessibility for elderly passengers and persons with disabilities. By combining indoor mapping, real-time updates, and user-friendly interfaces, the solution reduces confusion, saves time, and improves overall passenger experience in railway stations.
 
 ## Proposed Solution / Architecture Diagram
+The proposed system is a multi-platform navigation solution consisting of:
 
-
+1)Mobile Application
+2)Station-installed Digital Kiosks
+3)Central Backend Server
+4)Indoor Mapping & Location Services
+image
 ## Use Cases
+🔹Finding Platforms
 
+Passenger enters train number or platform number.
 
-## Technology Stack
+System guides the passenger via shortest and least crowded route.
+
+🔹Locating Station Facilities
+
+Helps users find restrooms, ticket counters, food courts, waiting rooms, exits, and parking areas.
+
+🔹Navigation for Disabled Passengers
+
+Provides wheelchair-friendly routes.
+
+Highlights elevators, ramps, and accessible restrooms.
+
+🔹Voice-Guided Navigation
+
+Supports visually impaired passengers using audio instructions.
+
+🔹Digital Kiosk Assistance
+
+Passengers without smartphones can use touch-screen kiosks.
+
+Option to scan QR code to continue navigation on mobile.
+
+🔹Real-Time Updates
+
+Instantly updates route if a platform changes or a path is blocked.
+
+Technology Stack
+Frontend
+Mobile App: Flutter / React Native
+
+Kiosk UI: HTML, CSS, JavaScript
+
+3D Maps: Mapbox / Unity / Three.js
+
+## Backend
+Server: Node.js / Python (Django / Flask)
+
+APIs: REST APIs for navigation and updates
+
+## Database
+PostgreSQL / MySQL: Station layouts and facility data
+
+## Firebase: Real-time updates and notifications
+
+Location & Mapping
+Indoor Positioning: Bluetooth Beacons / QR Codes / Wi-Fi
+
+GIS & Mapping Tools
+
+Accessibility
+Text-to-Speech (TTS) for voice navigation
+
+Speech Recognition for voice commands
+## output
+<img width="1134" height="561" alt="Screenshot 2026-03-18 142952" src="https://github.com/user-attachments/assets/e7e4d0b7-e833-4770-993a-b3b08d5fe32b" />
 
 
 ## Dependencies
-
+Accurate and updated railway station layout data
+Indoor positioning hardware (beacons / QR markers)
+Internet connectivity for real-time updates
+Integration with Indian Railways existing apps and databases
+Maintenance support for regular station layout changes
